@@ -14,8 +14,6 @@ def port_scan(ipaddress, port):
             print(f"[-] Port {port} is Closed")
         elif result == 11:  # Host unreachable
             print(f"[?] Port {port} is Filtered (Host unreachable)")
-        else:
-            print(f"[?] Port {port} is Filtered/Unfiltered (result code: {result})")
 
     except socket.timeout:
         print(f"[?] Port {port} is Filtered (timeout)")
