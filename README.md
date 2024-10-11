@@ -12,7 +12,7 @@ Python 3.x
 
 ### Installation
 - Clone this repository to your local machine:
-- git clone https://github.com/yourusername/Port_scanner.git
+- git clone https://github.com/Srinunaik000/Port_scanner.git
 - cd Port_scanner
 
 ### Install the required dependencies (if any are added in the future):
