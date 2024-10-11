@@ -21,14 +21,14 @@ pip install -r requirements.txt
 ## Usage
 To run the port scanner, use the following syntax:
 
-python main.py -t <target-ip/domain> -p <port-range>
+python main.py scan -t <target-ip/domain> -p <port-range>
 Examples:
 Scan a single port:
 
-python main.py -t 192.168.1.1 -p 80
+python main.py scan -t 192.168.1.1 -p 80
 Scan a range of ports:
 
-python main.py -t 192.168.1.1 -p 20-100
+python main.py scan -t 192.168.1.1 -p 20-100
 
 ## Arguments:
 - -t, --target : Specify the target IP address or domain.
